@@ -104,6 +104,39 @@
         grid-template-columns: repeat(1,1fr);
     }
   }
+  /* Some fact related styles */
+  .some-facts{
+    padding: 0px 120px;
+  }
+  .fact-card{
+    flex-direction: column;
+    border: 1px solid #FF990E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .facts-container{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .fact-number{
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+  }
+  .fact-description{
+    max-width: 540px;
+  }
 
   @media screen and (min-width: 576px) and (max-width:990px){
     .teams{
