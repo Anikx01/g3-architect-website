@@ -95,7 +95,27 @@
 #quick-list{
     font-weight: 500;
 }
+/* Feature section style */
+.feature{
+  gap: 100px;
+}
+    #feature-section-style{
+      border-left: 5px solid #FF990E;
+      padding-left: 25px;
+    }
+    .feature-card,.feature-title{
+      font-weight: 600;
+      font-size: 1.25rem;
+      margin-top: 0px;
+      margin-bottom: 0PX;
 
+    }
+    .feature-card{
+      border-radius: 8px;
+      margin-bottom: 20px;
+      padding: 20px;
+      box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.06 );
+    }
   /* Some fact related styles */
   
   .fact-card{
